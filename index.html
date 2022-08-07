@@ -60,12 +60,12 @@
 							<ul class="items">
 								<li>
 									<h3>Email</h3>
-									<!--<a href="#">sacha.gavino@nbi.ku.dk</a>-->
-									<input type="text" value="sacha.gavino@nbi.ku.dk" id="myInput">
+									<span>sacha.gavino@nbi.ku.dk</span>
+									<!--<input type="text" value="sacha.gavino@nbi.ku.dk" id="myInput">-->
 								</li>
 								<li>
 									<h3>Phone</h3>
-									<a href="#">+45 55 24 84 89</a>
+									<span>+45 55 24 84 89</span>
 								</li>
 								<li>
 									<h3>Address</h3>
@@ -81,23 +81,6 @@
 								</li>
 							</ul>
 						</footer>
-						<!-- The button used to copy the text -->
-<button onclick="myFunction()">Copy text</button>
-JAVASCRIPT:
-function myFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("myInput");
-
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-   /* Copy the text inside the text field */
-  navigator.clipboard.writeText(copyText.value);
-
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
 					</section>
 
 				<!-- Copyright -->
