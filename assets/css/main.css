@@ -158,11 +158,11 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: #000000;
+		color: #d2e822;
 	}
 
 	body, input, select, textarea {
-		color: #960303;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
@@ -2135,7 +2135,7 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #2ee4bb;
+			border-color: #25501a;
 		}
 
 	label {
